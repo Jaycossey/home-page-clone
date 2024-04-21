@@ -11,13 +11,4 @@ public class AdminCmsController : Controller
     {
         return View();
     }
-    // 
-    // GET: /HelloWorld/Welcome/ 
-
-    public IActionResult Welcome(string name, int ID = 1)
-    {
-        ViewData["Message"] = "Hello " + name;
-        ViewData["ID"] = ID;
-        return View();
-    }
 }
