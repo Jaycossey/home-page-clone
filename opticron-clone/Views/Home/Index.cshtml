@@ -5,11 +5,11 @@
 <div class="full items-justify">
     <div id="banner" class="bg-banner grid-y" style="height: 512px; width: 100%"></div>
 
-        @* Featured Section *@
-        <section class="pg-width cell grid-x">
+        @* Featured Section -  *@
+        <section class="pg-width cell grid-x grid-margin-x grid-container fluid">
             @* Auto populate cards *@
             @for (int i = 0; i < 4; i++) {
-                <div class="card cell small-3" style="border: none; padding: 5px; max-width: 300px">
+                <div class="card cell small-12 medium-6 large-3" style="border: none; padding: 5px; width: 300px; margin: auto">
                     <h2 style="color: grey">Title</h2>
                     <img src="/images/blueTit.png" style="height: 230px;" />
                     <p style="padding: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam repudiandae quaerat</p>
@@ -19,18 +19,17 @@
         </section>
 
         @* Offers section *@
-        <section class="pg-width grid-y cell bg-beige"> 
+        <section class="pg-width grid-y cell bg-beige grid-container fluid">
             @* Title and container *@
-            <h2 class="text-center" style="color: grey">Special Offers</h2>
-            <div class="grid-x grid-margin-x">
+            <h2 class="text-center" style="color: grey; margin-bottom: 20px">Special Offers</h2>
+            <div class="grid-x grid-margin-x" style="margin-x: 34px">
                 
                 @* Auto populate grid *@
                 @for (int i = 0; i < 3; i++) {
                     @* Card container *@
-                    <div class="card cell small-4">
+                    <div class="card cell small-12 medium-4">
                         @* Image *@
-                        <img src="/images/olympusBrand.png"
-                            style="max-height: 244px">
+                        <img src="/images/olympusBrand.png">
                         @* Text content *@
                         <div class="card-section text-center">
                             <p>Catagory Title</p>
@@ -44,14 +43,19 @@
             <button type="button" class="button green center" >View All Offers</button>
         </section>
 
-        <section class="pg-width cell">
-            <h2 class="text-center" style="color: grey; margin: auto;">Catagories</h2>
+        @* Catagory section *@
+        <section class="pg-width cell grid-container fluid" >
+            @* Title and grid container *@
+            <h2 class="text-center" style="color: grey; margin: auto;">Product Catagories</h2>
             
-            <div class="grid-x">
+            @* Horizontal grid for the cards at large screen *@
+            <div class="grid-x grid-margin-x">
 
                 @for (int i = 0; i < 4; i++) {
-                    <div class="card cell small-3 text-center wireFrame" style="height: 320px">
-                        <img src="/images/binocular.png">
+                    @* Card Container *@
+                    <div class="card cell small-12 medium-6 large-3 text-center" style="max-height: 320px; border: none">
+                        @* Content for cards *@
+                        <img class="center" style="max-width: 250px" src="/images/binocular.png">
                         <p style="color: grey">Catagory</p>
                     </div>
                 }
