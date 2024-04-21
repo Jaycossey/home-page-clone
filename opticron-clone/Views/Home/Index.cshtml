@@ -3,17 +3,59 @@
 }
 
 <div class="full items-justify">
-    <div id="banner" class="bg-banner" style="height: 512px; width: 100%"></div>
+    <div id="banner" class="bg-banner grid-y" style="height: 512px; width: 100%"></div>
 
-    <section class="pg-width wireFrame">
+        @* Featured Section *@
+        <section class="pg-width cell grid-x">
+            @* Auto populate cards *@
+            @for (int i = 0; i < 4; i++) {
+                <div class="card cell small-3" style="border: none; padding: 5px; max-width: 300px">
+                    <h2 style="color: grey">Title</h2>
+                    <img src="/images/blueTit.png" style="height: 230px;" />
+                    <p style="padding: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam repudiandae quaerat</p>
+                    <button type="button" class="button green">Button Text</button>
+                </div>
+            }
+        </section>
 
-    </section>
+        @* Offers section *@
+        <section class="pg-width grid-y cell bg-beige"> 
+            @* Title and container *@
+            <h2 class="text-center" style="color: grey">Special Offers</h2>
+            <div class="grid-x grid-margin-x">
+                
+                @* Auto populate grid *@
+                @for (int i = 0; i < 3; i++) {
+                    @* Card container *@
+                    <div class="card cell small-4">
+                        @* Image *@
+                        <img src="/images/olympusBrand.png"
+                            style="max-height: 244px">
+                        @* Text content *@
+                        <div class="card-section text-center">
+                            <p>Catagory Title</p>
+                            <p><strong>Offer Desc</strong></p>
+                        </div>
+                    </div>
+                }
 
-    <section class="pg-width bg-beige wireFrame">
+            </div>
 
-    </section>
+            <button type="button" class="button green center" >View All Offers</button>
+        </section>
 
-    <section class="pg-width wireFrame">
+        <section class="pg-width cell">
+            <h2 class="text-center" style="color: grey; margin: auto;">Catagories</h2>
+            
+            <div class="grid-x">
 
-    </section>
+                @for (int i = 0; i < 4; i++) {
+                    <div class="card cell small-3 text-center wireFrame" style="height: 320px">
+                        <img src="/images/binocular.png">
+                        <p style="color: grey">Catagory</p>
+                    </div>
+                }
+            </div>
+
+        </section>
 </div>

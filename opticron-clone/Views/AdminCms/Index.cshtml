@@ -2,6 +2,27 @@
     ViewData["Title"] = "AdminCms";
 }
 
-<h2>Admin</h2>
+<div class="pg-width" style="margin: auto">
+    <h1>Admin</h1>
 
-<p>Hello from our View Template!</p>
+    <p>Input the following information to update the database:</p>
+
+    @* Form fieldset for updating home page content *@
+    <form>
+        <div class="grid-container">
+            <div class="grid-y grid-padding-x">
+
+                @* Database table selection for updates *@
+                <fieldset class="large-5 cell">
+                    <legend>Choose data to update</legend>
+                    <input type="radio" name="dbSelection" value="Products" id="products" required><label for="products">Products</label>
+                    <input type="radio" name="dbSelection" value="Offers" id="offers"><label for="offers">Offers</label>
+                    <input type="radio" name="dbSelection" value="Catagories" id="catagories"><label for="catagories">Catagories</label>
+                </fieldset>
+            </div> 
+
+        </div>
+
+        <button class="primary button round" type="button">Update Database</button>
+    </form>
+</div>

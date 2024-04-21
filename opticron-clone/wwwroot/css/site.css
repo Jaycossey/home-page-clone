@@ -1,3 +1,6 @@
+/* TODO:: Noticing repeating styles, best to condense and consolidate but 
+          not immediate issue. */
+
 /* Custom CSS Classes */
 
 /* Fonts */
@@ -21,6 +24,10 @@ body {
 
 input::placeholder {
     color: black;
+}
+
+a {
+    color: grey;
 }
 
 /* Wireframe for testing */
@@ -48,7 +55,16 @@ input::placeholder {
 }
 
 section {
-    height: 100px;
+    height: max-content;
+    margin: auto;
+    padding: 40px;
+}
+
+.center {
     margin: auto;
 }
 
+.green {
+    width: 165px;
+    background-color: green;
+}
