@@ -1,0 +1,54 @@
+/* Custom CSS Classes */
+
+/* Fonts */
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* Page Size and bg colors */
+.pg-width {
+    width: 1280px;
+}
+
+.bg-beige {
+    background-color: #e6e7e8;
+}
+
+.bg-grey {
+    background-color: #bbbdbf;
+    color: white;
+}
+
+input::placeholder {
+    color: black;
+}
+
+/* Wireframe for testing */
+.wireFrame { /* TODO:: REMOVE THIS CLASS AFTER TESTING */
+    border: 2px solid red;
+}
+
+
+/* Alignment */
+.items-center {
+    margin: auto;
+    padding-top: 50px;
+}
+
+.border-left > li {
+    border-left: 1px solid grey;
+}
+
+
+
+/* Home Page styles */
+.bg-banner {
+    background-image: url('/images/banner.png');
+    background-position: center;
+}
+
+section {
+    height: 100px;
+    margin: auto;
+}
+

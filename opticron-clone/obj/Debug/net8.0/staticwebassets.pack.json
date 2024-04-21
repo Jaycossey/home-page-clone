@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/obj/Debug/net8.0/scopedcss/projectbundle/opticron-clone.bundle.scp.css",
+      "PackagePath": "staticwebassets/opticron-clone.bundle.scp.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/banner.png",
+      "PackagePath": "staticwebassets/images/banner.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/binoc1.png",
+      "PackagePath": "staticwebassets/images/binoc1.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/binocular.png",
+      "PackagePath": "staticwebassets/images/binocular.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/blueTit.png",
+      "PackagePath": "staticwebassets/images/blueTit.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/cashBack.png",
+      "PackagePath": "staticwebassets/images/cashBack.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/compactBinoc.png",
+      "PackagePath": "staticwebassets/images/compactBinoc.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/eagleFish.png",
+      "PackagePath": "staticwebassets/images/eagleFish.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/fieldScope.png",
+      "PackagePath": "staticwebassets/images/fieldScope.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/olympusBrand.png",
+      "PackagePath": "staticwebassets/images/olympusBrand.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/telescope.png",
+      "PackagePath": "staticwebassets/images/telescope.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/telescopicGroup.png",
+      "PackagePath": "staticwebassets/images/telescopicGroup.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/images/valleyView.png",
+      "PackagePath": "staticwebassets/images/valleyView.png"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.opticron-clone.props",
+      "PackagePath": "build\\opticron-clone.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.opticron-clone.props",
+      "PackagePath": "buildMultiTargeting\\opticron-clone.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.opticron-clone.props",
+      "PackagePath": "buildTransitive\\opticron-clone.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.opticron-clone.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

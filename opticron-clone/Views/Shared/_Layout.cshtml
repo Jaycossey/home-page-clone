@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - opticron_clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/opticron_clone.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    @* Header Containers -------------------------------- *@
+    <header class="full bg-beige"
+            style="height: 180px;
+                    padding-top: 40px;
+                    padding-right: 5px;
+                    padding-left: 5px">
+
+        @* Image and Search container *@
+        <div class="grid-x align-justify"
+            style="max-width: 1280px;
+                margin: auto;
+                margin-bottom: 20px;">
+            
+            @* Logo image *@
+            <img class="small-6 cell"
+                style="max-width: 200px;
+                        max-height: 50px"
+                src="/images/logo.png" />
+            
+            @* Burger bar *@
+            <div class="cell small-6 text-right hide-for-large"> @* TODO: Menu text needs re-alignment, should be centered with icon*@
+                <span class="text-left">Menu</span> <i class="fa-solid fa-bars" style="color: green; font-size: 30px; padding-top: 10px"></i>
+            </div>
+
+        </div>
+
+        @* Menu Items *@
+        <ul class="menu medium-expanded grid-y align-justify"
+            style="max-width: 1280px;
+                    margin: auto">
+            <li>
+                <a class="cell small-1 show-for-large" asp-area="" asp-controller="Home" asp-action="Index">Our Products</a>
+            </li>
+            <li>
+                <a class="cell small-1 show-for-large" href="#">Where to Buy</a>
+            </li>
+            <li>
+                <a class="cell small-1 show-for-large" href="#">News & Reviews</a>
+            </li>
+            <li>
+                <a class="cell small-1 show-for-large" href="#">Help & Support</a>
+            </li>
+            <li>
+                <a class="cell small-1 show-for-large" asp-area="" asp-controller="AdminCms" asp-action="Index">My Opticron</a>
+            </li>
+
+            @* Search Bar - Should always be visible at at fixed width *@
+            <li class="cell grid-x align-right"
+                        style="min-width: 300px;
+                                height: 40px;">
+
+                <input class="cell"
+                        style="width: 255px" 
+                        placeholder="My Opticron..." />
+
+                <button class="cell bg-grey"
+                        style="width: 40px;
+                                height: 40px;">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </li>
+
+        </ul>
+
+    </header>
+    
+    @* Rendered Content and Containers ------------------ *@
+    <div class="">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div> 
+
+    @* Footer containers ---------------- *@
+    <footer class="bg-grey full" style="min-height: 240px">
+        @* Grid Container *@
+        <div class="grid-x grid-padding-x align-justify small-grid-y" style="margin: auto; padding-top: 50px; max-width: 1280px">
+            @* Left side of grid *@
+            <div class="wireFrame grid-y cell small-12 medium-6">
+                <p><strong>Opticron</strong> Unit 21, Titan Court, Laporte Way, Luton, Bedfordshire, LU4 8EF, UK</p>
+                <small>Site Map / Terms / Privacy Policy / Site By Verto</small>
+            </div>
+
+            @* Right Side of grid - Phone, email and icons *@
+            <div class="wireFrame grid-y cell small-12 medium-6 medium-text-right align-justify text-justify" style="width: 320px; height: 125px;">
+                
+                <h3 style="font-size: 26px"><strong>call</strong> 01582 726522</h3>
+                <p style="padding-bottom: 20px; margin-top: -20px;"><strong>email us</strong> sales@opticron.co.uk</p>
+                
+                @* Font awesome Icons *@
+                <ul class="no-bullet grid-x small-5 text-center border-left align-spaced" style="max-height: 30px">
+                    <li class="cell small-2" style="border: none">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li class="cell small-2">
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li class="cell small-2">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                    <li class="cell small-2">
+                        <i class="fa-brands fa-youtube"></i> @* Note:: Font awesome icons have updated their icons for both YT and Google *@
+                    </li>
+                    <li class="cell small-2">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            
+    </footer>
+
+    @* Scripts *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/77379d9051.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
