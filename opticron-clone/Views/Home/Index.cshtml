@@ -5,17 +5,10 @@
 <div class="full items-justify">
     <div id="banner" class="bg-banner grid-y" style="height: 512px; width: 100%"></div>
 
-        @* Featured Section -  *@
+        @* Featured Section - Needs modularizing *@
         <section class="pg-width cell grid-x grid-margin-x grid-container fluid">
             @* Auto populate cards *@
-            @for (int i = 0; i < 4; i++) {
-                <div class="card cell small-12 medium-6 large-3" style="border: none; padding: 5px; width: 300px; margin: auto">
-                    <h2 style="color: grey">Title</h2>
-                    <img src="/images/blueTit.png" style="height: 230px;" />
-                    <p style="padding: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam repudiandae quaerat</p>
-                    <button type="button" class="button green">Button Text</button>
-                </div>
-            }
+            @ViewData["FeaturedData"]
         </section>
 
         @* Offers section *@

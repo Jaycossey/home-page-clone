@@ -1,0 +1,13 @@
+@{
+    ViewData["FeaturedData"] = "Index";
+}
+
+@* Return the featured cards to the parent, replace title, description, image src and button text *@
+@for (int i = 0; i < 4; i++) {
+                <div class="card cell small-12 medium-6 large-3" style="border: none; padding: 5px; width: 300px; margin: auto">
+                    <h2 style="color: grey">@ViewData["ItemTitle"]</h2>
+                    <img src='@ViewData["ImageSrc"]' style="height: 230px;" />
+                    <p style="padding: 5px;">@ViewData["Description"]</p>
+                    <button type="button" class="button green">@ViewData["BtnText"]</button>
+                </div>
+            }
