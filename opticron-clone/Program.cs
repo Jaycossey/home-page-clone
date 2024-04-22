@@ -5,6 +5,7 @@ using opticron_clone.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Get and assign connection string for feature model context
 builder.Services.AddDbContext<FeatureModelContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("FeatureModelContext") ?? throw new InvalidOperationException("Connection string 'FeatureModelContext' not found.")));
 

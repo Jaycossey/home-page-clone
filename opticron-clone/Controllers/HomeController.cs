@@ -3,14 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using opticron_clone.Models;
 
 namespace opticron_clone.Controllers;
-
-/*
-    TODO:: 
-        - Create database and context
-        - Pass the data for each ViewData to this controller
-        - Create models for the data
-*/
-
+// Home Controller handles the navigation and rendering of views through the home directory
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -25,19 +18,6 @@ public class HomeController : Controller
     // GET: /Home
     public IActionResult Index()
     {
-        // View Data, variable assignment for home page
-        // ViewData["FeatureTitle"] = "Feature Title";
-        // ViewData["FImageSrc"] = "/images/blueTit.png";
-        // ViewData["FDescription"] = "Lorem Impsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam repudiandae quaerat.";
-        // ViewData["FBtnText"] = "Button Txt";
-        // ViewData["OSectionTitle"] = "Special Offers";
-        // ViewData["OfferTitle"] = "Title Text";
-        // ViewData["OfferDesc"] = "Strong Desc Text";
-        // ViewData["OBtnText"] = "View All Offers";
-        // ViewData["CatagoryTitle"] = "Product Catagories";
-        // ViewData["CatImage"] = "/images/binocular.png";
-        // ViewData["CatName"] = "Catagory Name";
-        // Return index.cshtml after data has been assigned
         return View();
     }
     // 

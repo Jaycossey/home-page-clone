@@ -26,10 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone
 build_property._RazorSourceGeneratorDebug = 
 
-[/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/Views/AdminCms/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5DbXMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/Views/Feature/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVhdHVyZS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
