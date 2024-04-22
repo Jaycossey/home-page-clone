@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using opticron_clone.Models;
 
 namespace opticron_clone.Controllers;
-
+// Home Controller handles the navigation and rendering of views through the home directory
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -13,11 +13,16 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    // 
+    // Endpoint for Home Page (Index view)
+    // GET: /Home
     public IActionResult Index()
     {
         return View();
     }
-
+    // 
+    // Retrieve Privacy page view
+    // GET: /Home/Privacy
     public IActionResult Privacy()
     {
         return View();

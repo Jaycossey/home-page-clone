@@ -20,15 +20,7 @@
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
-/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Identity.Client.dll
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
