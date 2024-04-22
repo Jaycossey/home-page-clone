@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - opticron_clone</title>
+    <title>Opticron Clone</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/opticron_clone.styles.css" asp-append-version="true" />
@@ -42,7 +42,7 @@
             style="max-width: 1280px;
                     margin: auto">
             <li>
-                <a class="cell small-1 show-for-large" asp-area="" asp-controller="Home" asp-action="Index">Our Products</a>
+                <a class="cell small-1 show-for-large" asp-area="" asp-controller="Feature" asp-action="Index">Our Products</a>
             </li>
             <li>
                 <a class="cell small-1 show-for-large" href="#">Where to Buy</a>
@@ -54,7 +54,12 @@
                 <a class="cell small-1 show-for-large" href="#">Help & Support</a>
             </li>
             <li>
-                <a class="cell small-1 show-for-large" asp-area="" asp-controller="AdminCms" asp-action="Index">My Opticron</a>
+                <a class="cell small-1 show-for-large" asp-area="" asp-controller="Feature" asp-action="List">My Opticron</a>
+                @* TODO:
+                        - Need to rework the "feature" controllers and models
+                        - Need to create a "Feature/Index" page which replaces the "Home/Index"
+                        - Need to create a "Feature/List" page for admin / cms 
+                    *@
             </li>
 
             @* Search Bar - Should always be visible at at fixed width *@
