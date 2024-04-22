@@ -1,10 +1,12 @@
+@model IEnumerable<opticron_clone.Models.FeatureModel>
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Index";
 }
 
 @* TODO::
         - Import and display data on screen
-        - Expand the Seed Data and Feature Model
+        - Expand the Seed Data and Feature Model!
  *@
 
 <div class="full items-justify">
@@ -13,20 +15,24 @@
         @* Featured Section - Needs modularizing *@
         <section class="pg-width cell grid-x grid-margin-x grid-container fluid">
             @* Auto populate cards *@
-            @for (int i = 0; i < 4; i++) {
+            @foreach (var item in Model) 
+            {
+                @* @if (item.Description != null)
+                { *@
                     @* Card Container. Responsive design with Foundation CSS classes *@
                     <div class="card cell small-12 medium-6 large-3" 
                         style="border: none; padding: 5px; width: 300px; margin: auto">
                         @* Title of card within Feature Section *@
-                        <h2 style="color: grey">@ViewData["FeatureTitle"]</h2>
+                        <h2 style="color: grey">@Html.DisplayFor(modelItem => item.Title)</h2>
                         @* Image with dynamic source path *@
-                        <img src='@ViewData["FImageSrc"]' style="height: 230px;" />
+                        <img src='@Html.DisplayFor(modelItem => item.ImageSrc)' style="height: 230px;" />
                         @* Description of card section *@
-                        <p style="padding: 5px;">@ViewData["FDescription"]</p>
+                        <p style="padding: 5px;">@Html.DisplayFor(modelItem => item.Description)</p>
                         @* Button text data *@
-                        <button type="button" class="button green">@ViewData["FBtnText"]</button>
+                        <button type="button" class="button green">@Html.DisplayFor(modelItem => item.FBtnText)</button>
                     </div>
-                }
+                @* } *@
+            }
         </section>
 
         @* Offers section *@

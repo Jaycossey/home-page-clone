@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "gRnLH0OPsjyGvvkywiKToUDkiltgAJngyP0PcbUSkRLgMdv0waSfIWmqhMbkvHBQOheItw+pFtcUWXSxSbnFwg==",
-  "success": true,
+  "dgSpecHash": "S2eDBKEbsxgbJqPe8meag3i3wn6pG6gtZ4jBy+CYGPaIMtPuCczgjI7kiuawdrukS/8UjzTN5A4XVGni1DN1eQ==",
+  "success": false,
   "projectFilePath": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/opticron-clone.csproj",
   "expectedPackageFiles": [
     "/home/jaycossey/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
@@ -169,7 +169,19 @@
     "/home/jaycossey/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/home/jaycossey/.nuget/packages/system.threading.tasks.dataflow/7.0.0/system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "/home/jaycossey/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/home/jaycossey/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
+    "/home/jaycossey/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512",
+    "/home/jaycossey/.nuget/packages/microsoft.netcore.app.ref/8.0.3/microsoft.netcore.app.ref.8.0.3.nupkg.sha512",
+    "/home/jaycossey/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.ubuntu.22.04-x64. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Microsoft.NETCore.App.Host.ubuntu.22.04-x64",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
