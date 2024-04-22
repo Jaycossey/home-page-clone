@@ -1,53 +1,77 @@
-@model IEnumerable<opticron_clone.Models.FeatureModel>
-
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Home Page";
 }
 
-<h1>Index</h1>
+@* TODO::
+        - Import and display data on screen
+        - Expand the Seed Data and Feature Model
+ *@
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageSrc)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FBtnText)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageSrc)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FBtnText)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="full items-justify">
+    <div id="banner" class="bg-banner grid-y" style="height: 512px; width: 100%"></div>
+
+        @* Featured Section - Needs modularizing *@
+        <section class="pg-width cell grid-x grid-margin-x grid-container fluid">
+            @* Auto populate cards *@
+            @for (int i = 0; i < 4; i++) {
+                    @* Card Container. Responsive design with Foundation CSS classes *@
+                    <div class="card cell small-12 medium-6 large-3" 
+                        style="border: none; padding: 5px; width: 300px; margin: auto">
+                        @* Title of card within Feature Section *@
+                        <h2 style="color: grey">@ViewData["FeatureTitle"]</h2>
+                        @* Image with dynamic source path *@
+                        <img src='@ViewData["FImageSrc"]' style="height: 230px;" />
+                        @* Description of card section *@
+                        <p style="padding: 5px;">@ViewData["FDescription"]</p>
+                        @* Button text data *@
+                        <button type="button" class="button green">@ViewData["FBtnText"]</button>
+                    </div>
+                }
+        </section>
+
+        @* Offers section *@
+        <section class="pg-width grid-y cell bg-beige grid-container fluid">
+            @* Title and container *@
+            <h2 class="text-center" style="color: grey; margin-bottom: 20px">@ViewData["OSectionTitle"]</h2>
+            <div class="grid-x grid-margin-x" style="margin-x: 34px">
+                
+                @* Auto populate grid *@
+                @for (int i = 0; i < 3; i++) {
+                    @* Card container *@
+                    <div class="card cell small-12 medium-4">
+                        @* Image *@
+                        <img src="/images/olympusBrand.png">
+                        @* Text content *@
+                        <div class="card-section text-center">
+                            <p>@ViewData["OfferTitle"]</p>
+                            <p><strong>@ViewData["OfferDesc"]</strong></p>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <button type="button" class="button green center" >@ViewData["OBtnText"]</button>
+        </section>
+
+        @* Catagory section *@
+        <section class="pg-width cell grid-container fluid" >
+            @* Title and grid container *@
+            <h2 class="text-center" style="color: grey; margin: auto;">@ViewData["CatagoryTitle"]</h2>
+            
+            @* Horizontal grid for the cards at large screen *@
+            <div class="grid-x grid-margin-x">
+
+                @for (int i = 0; i < 4; i++) {
+                    @* Card Container *@
+                    <div class="card cell small-12 medium-6 large-3 text-center" style="max-height: 320px; border: none">
+                        @* Content for cards *@
+                        <img class="center" style="max-width: 250px" src='@ViewData["CatImage"]'>
+                        <p style="color: grey">@ViewData["CatName"]</p>
+                    </div>
+                }
+            </div>
+
+        </section>
+
+</div>

@@ -25,6 +25,12 @@ namespace opticron_clone.App_Data
             return View(await _context.FeatureModel.ToListAsync());
         }
 
+        // List features
+        public async Task<IActionResult> List()
+        {
+            return View(await _context.FeatureModel.ToListAsync());
+        }
+
         // GET: Feature/Details/5
         public async Task<IActionResult> Details(int? id)
         {
