@@ -2,6 +2,11 @@
     ViewData["Title"] = "Home Page";
 }
 
+@* TODO:: 
+        - Ensure that each item (data) is updated as the loops iterate.
+        - Ensure comments are accurate for learning purposes
+*@
+
 <div class="full items-justify">
     <div id="banner" class="bg-banner grid-y" style="height: 512px; width: 100%"></div>
 
@@ -9,10 +14,16 @@
         <section class="pg-width cell grid-x grid-margin-x grid-container fluid">
             @* Auto populate cards *@
             @for (int i = 0; i < 4; i++) {
-                    <div class="card cell small-12 medium-6 large-3" style="border: none; padding: 5px; width: 300px; margin: auto">
+                    @* Card Container. Responsive design with Foundation CSS classes *@
+                    <div class="card cell small-12 medium-6 large-3" 
+                        style="border: none; padding: 5px; width: 300px; margin: auto">
+                        @* Title of card within Feature Section *@
                         <h2 style="color: grey">@ViewData["FeatureTitle"]</h2>
+                        @* Image with dynamic source path *@
                         <img src='@ViewData["FImageSrc"]' style="height: 230px;" />
+                        @* Description of card section *@
                         <p style="padding: 5px;">@ViewData["FDescription"]</p>
+                        @* Button text data *@
                         <button type="button" class="button green">@ViewData["FBtnText"]</button>
                     </div>
                 }
