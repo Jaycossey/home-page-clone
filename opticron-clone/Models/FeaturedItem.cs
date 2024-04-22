@@ -9,8 +9,8 @@ namespace FeaturedData.Models;
 public class FeaturedItem
 {   
     public int Id { get; set; }
-    public string ItemTitle { get; set; }
-    public string ImageSrc { get; set; }
-    public string Description { get; set; }
-    public string BtnText { get; set; }
+    public string ?ItemTitle { get; set; }
+    public string ?ImageSrc { get; set; }
+    public string ?Description { get; set; }
+    public string ?BtnText { get; set; }
 }
