@@ -1,22 +1,6 @@
-using FeaturedData;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-if(builder.Environment.IsDevelopment())
-{
-    builder.Services.AddDbContext<FeaturedDataContext>(options =>
-    {
-        options.UseSqlite(builder.Configuration.GetConnectionString("FeaturedDataContext"));
-    });
-}
-else
-{
-    builder.Services.AddDbContext<FeaturedDataContext>(options => 
-    {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionFeaturedDataContext"));
-    });
-}
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

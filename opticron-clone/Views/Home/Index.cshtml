@@ -8,13 +8,20 @@
         @* Featured Section - Needs modularizing *@
         <section class="pg-width cell grid-x grid-margin-x grid-container fluid">
             @* Auto populate cards *@
-            @ViewData["FeaturedData"]
+            @for (int i = 0; i < 4; i++) {
+                    <div class="card cell small-12 medium-6 large-3" style="border: none; padding: 5px; width: 300px; margin: auto">
+                        <h2 style="color: grey">@ViewData["FeatureTitle"]</h2>
+                        <img src='@ViewData["FImageSrc"]' style="height: 230px;" />
+                        <p style="padding: 5px;">@ViewData["FDescription"]</p>
+                        <button type="button" class="button green">@ViewData["FBtnText"]</button>
+                    </div>
+                }
         </section>
 
         @* Offers section *@
         <section class="pg-width grid-y cell bg-beige grid-container fluid">
             @* Title and container *@
-            <h2 class="text-center" style="color: grey; margin-bottom: 20px">Special Offers</h2>
+            <h2 class="text-center" style="color: grey; margin-bottom: 20px">@ViewData["OSectionTitle"]</h2>
             <div class="grid-x grid-margin-x" style="margin-x: 34px">
                 
                 @* Auto populate grid *@
@@ -25,21 +32,21 @@
                         <img src="/images/olympusBrand.png">
                         @* Text content *@
                         <div class="card-section text-center">
-                            <p>Catagory Title</p>
-                            <p><strong>Offer Desc</strong></p>
+                            <p>@ViewData["OfferTitle"]</p>
+                            <p><strong>@ViewData["OfferDesc"]</strong></p>
                         </div>
                     </div>
                 }
 
             </div>
 
-            <button type="button" class="button green center" >View All Offers</button>
+            <button type="button" class="button green center" >@ViewData["OBtnText"]</button>
         </section>
 
         @* Catagory section *@
         <section class="pg-width cell grid-container fluid" >
             @* Title and grid container *@
-            <h2 class="text-center" style="color: grey; margin: auto;">Product Catagories</h2>
+            <h2 class="text-center" style="color: grey; margin: auto;">@ViewData["CatagoryTitle"]</h2>
             
             @* Horizontal grid for the cards at large screen *@
             <div class="grid-x grid-margin-x">
@@ -48,8 +55,8 @@
                     @* Card Container *@
                     <div class="card cell small-12 medium-6 large-3 text-center" style="max-height: 320px; border: none">
                         @* Content for cards *@
-                        <img class="center" style="max-width: 250px" src="/images/binocular.png">
-                        <p style="color: grey">Catagory</p>
+                        <img class="center" style="max-width: 250px" src='@ViewData["CatImage"]'>
+                        <p style="color: grey">@ViewData["CatName"]</p>
                     </div>
                 }
             </div>
