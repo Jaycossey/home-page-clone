@@ -1,6 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using opticron_clone.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<FeatureModelContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("FeatureModelContext") ?? throw new InvalidOperationException("Connection string 'FeatureModelContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
