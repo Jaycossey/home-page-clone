@@ -26,6 +26,7 @@ To complete the task, I accomplished the following:
 ## Deployment
 
 Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/efbec9a8-5e2f-4dab-8cdd-df3cb2884651/deploy-status)](https://app.netlify.com/sites/preeminent-praline-09280a/deploys)
+
 Link: https://preeminent-praline-09280a.netlify.app/
 
 ## Support
