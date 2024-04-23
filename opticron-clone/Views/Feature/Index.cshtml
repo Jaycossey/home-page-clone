@@ -5,8 +5,8 @@
 }
 
 @* TODO::
-        - Import and display data on screen
-        - Expand the Seed Data and Feature Model!
+        - Ensure that data is seeded on initial load
+        - pass viewdata 
  *@
 
 <div class="full items-justify">
@@ -17,8 +17,8 @@
             @* Auto populate cards *@
             @foreach (var item in Model) 
             {
-                @* @if (item.Description != null)
-                { *@
+                @if (item.Description != "" && item.FBtnText != "")
+                {
                     @* Card Container. Responsive design with Foundation CSS classes *@
                     <div class="card cell small-12 medium-6 large-3" 
                         style="border: none; padding: 5px; width: 300px; margin: auto">
@@ -31,7 +31,7 @@
                         @* Button text data *@
                         <button type="button" class="button green">@Html.DisplayFor(modelItem => item.FBtnText)</button>
                     </div>
-                @* } *@
+                }
             }
         </section>
 
@@ -42,22 +42,26 @@
             <div class="grid-x grid-margin-x" style="margin-x: 34px">
                 
                 @* Auto populate grid *@
-                @for (int i = 0; i < 3; i++) {
-                    @* Card container *@
-                    <div class="card cell small-12 medium-4">
-                        @* Image *@
-                        <img src="/images/olympusBrand.png">
-                        @* Text content *@
-                        <div class="card-section text-center">
-                            <p>@ViewData["OfferTitle"]</p>
-                            <p><strong>@ViewData["OfferDesc"]</strong></p>
+                @foreach (var item in Model) 
+                {
+                    if (item.Description != "" && item.FBtnText == "")
+                    {
+                        @* Card container *@
+                        <div class="card cell small-12 medium-4">
+                            @* Image *@
+                            <img src='@Html.DisplayFor(modelItem => item.ImageSrc)'>
+                            @* Text content *@
+                            <div class="card-section text-center">
+                                <p>@Html.DisplayFor(modelItem => item.Title)</p>
+                                <p><strong>@Html.DisplayFor(modelItem => item.Description)</strong></p>
+                            </div>
                         </div>
-                    </div>
+                    }
                 }
 
             </div>
 
-            <button type="button" class="button green center" >@ViewData["OBtnText"]</button>
+            <button type="button" class="button green center" >@ViewData["OfferButton"]</button>
         </section>
 
         @* Catagory section *@
@@ -68,13 +72,17 @@
             @* Horizontal grid for the cards at large screen *@
             <div class="grid-x grid-margin-x">
 
-                @for (int i = 0; i < 4; i++) {
-                    @* Card Container *@
-                    <div class="card cell small-12 medium-6 large-3 text-center" style="max-height: 320px; border: none">
-                        @* Content for cards *@
-                        <img class="center" style="max-width: 250px" src='@ViewData["CatImage"]'>
-                        <p style="color: grey">@ViewData["CatName"]</p>
-                    </div>
+                @foreach (var item in Model) 
+                {
+                    if (item.Description == "" && item.FBtnText == "")
+                    {
+                        @* Card Container *@
+                        <div class="card cell small-12 medium-6 large-3 text-center" style="max-height: 320px; border: none">
+                            @* Content for cards *@
+                            <img class="center" style="max-width: 250px" src='@Html.DisplayFor(modelItem => item.ImageSrc)'>
+                            <p style="color: grey">@Html.DisplayFor(modelItem => item.Title)</p>
+                        </div>
+                    }
                 }
             </div>
 

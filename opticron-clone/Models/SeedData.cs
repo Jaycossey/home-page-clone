@@ -47,42 +47,56 @@ public static class SeedData
                         ImageSrc = "/images/blueTit.png",
                         Description = "Lorem Ipsum dolor esquss squall indorime, celatus ignatus.",
                         FBtnText = "View Gallery"
+                    },
+                    new FeatureModel
+                    {
+                        Title = "Discovery WP PC",
+                        ImageSrc = "/images/cashBack.png",
+                        Description = "£20 Cashback",
+                        FBtnText = ""
+                    },
+                    new FeatureModel
+                    {
+                        Title = "HR ED Fieldscopes",
+                        ImageSrc = "/images/olympusBrand.png",
+                        Description = "Free Digiscoping Kit",
+                        FBtnText = ""
+                    },
+                    new FeatureModel
+                    {
+                        Title = "IS 60 WP Fieldscope Kits",
+                        ImageSrc = "/images/fieldScope.png",
+                        Description = "Save 25%",
+                        FBtnText = ""
+                    },
+                    new FeatureModel
+                    {
+                        Title = "Binoculars",
+                        ImageSrc = "/images/binoc1.png",
+                        Description = "",
+                        FBtnText = ""
+                    },
+                    new FeatureModel
+                    {
+                        Title = "Compact Binoculars",
+                        ImageSrc = "/images/compactBinoc.png",
+                        Description = "",
+                        FBtnText = ""
+                    },
+                    new FeatureModel
+                    {
+                        Title = "Telescopes & Eyepieces",
+                        ImageSrc = "/images/telescope.png",
+                        Description = "",
+                        FBtnText = ""
+                    },
+                    new FeatureModel
+                    {
+                        Title = "Observation & Marine",
+                        ImageSrc = "/images/binocular.png",
+                        Description = "",
+                        FBtnText = ""
                     }
-                    // new FeatureModel
-                    // {
-                    //     Title = "Discovery WP PC",
-                    //     ImageSrc = "/images/cashBack.png",
-                    //     Description = "£20 Cashback",
-                    //     FBtnText = ""
-                    // },
-                    // new FeatureModel
-                    // {
-                    //     Title = "HR ED Fieldscopes",
-                    //     ImageSrc = "/images/olympusBrand.png",
-                    //     Description = "Free Digiscoping Kit",
-                    //     FBtnText = ""
-                    // },
-                    // new FeatureModel
-                    // {
-                    //     Title = "IS 60 WP Fieldscope Kits",
-                    //     ImageSrc = "/images/fieldScope.png",
-                    //     Description = "Save 25%",
-                    //     FBtnText = ""
-                    // },
-                    // new FeatureModel
-                    // {
-                    //     Title = "Binoculars",
-                    //     ImageSrc = "/images/binoc1.png",
-                    //     Description = "",
-                    //     FBtnText = ""
-                    // },
-                    // new FeatureModel
-                    // {
-                    //     Title = "Compact Binoculars",
-                    //     ImageSrc = "/images/compactBinoc.png",
-                    //     Description = "",
-                    //     FBtnText = ""
-                    // }
                 );
                 context.SaveChanges();
             }
