@@ -25,9 +25,7 @@ To complete the task, I accomplished the following:
 
 ## Deployment
 
-Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/efbec9a8-5e2f-4dab-8cdd-df3cb2884651/deploy-status)](https://app.netlify.com/sites/preeminent-praline-09280a/deploys)
 
-Link: https://preeminent-praline-09280a.netlify.app/
 
 ## Support
 
@@ -38,6 +36,8 @@ Raise an issue at the repo: <a href="">![GitHub](https://img.shields.io/badge/gi
 - Codebase does not entirely follow best practices, will need cleanup
 - Routing for controllers could do with a cleanup
 - Deployment issues, currently working on a fix
+
+- Fix found for deployment, see issues.
 
 ### Overall personal experience
 
