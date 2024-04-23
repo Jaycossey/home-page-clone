@@ -70,22 +70,21 @@
             <h2 class="text-center" style="color: grey; margin: auto;">@ViewData["CatagoryTitle"]</h2>
             
             @* Horizontal grid for the cards at large screen *@
-            <div class="grid-x grid-margin-x">
+            <div id="carousel-slick" class="grid-x grid-margin-x">
 
                 @foreach (var item in Model) 
                 {
                     if (item.Description == "" && item.FBtnText == "")
                     {
                         @* Card Container *@
-                        <div class="card cell small-12 medium-6 large-3 text-center" style="max-height: 320px; border: none">
+                        <div class="card cell small-12 medium-6 large-3 text-center" style="height: 320px; border: none;">
                             @* Content for cards *@
-                            <img class="center" style="max-width: 250px" src='@Html.DisplayFor(modelItem => item.ImageSrc)'>
+                            <img class="center" style="width: 250px; height: 250px" src='@Html.DisplayFor(modelItem => item.ImageSrc)'>
                             <p style="color: grey">@Html.DisplayFor(modelItem => item.Title)</p>
                         </div>
                     }
                 }
             </div>
-
         </section>
 
 </div>
