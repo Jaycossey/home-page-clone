@@ -37,6 +37,7 @@ Raise an issue at the repo: <a href="">![GitHub](https://img.shields.io/badge/gi
 
 - Codebase does not entirely follow best practices, will need cleanup
 - Routing for controllers could do with a cleanup
+- Deployment issues, currently working on a fix
 
 ### Overall personal experience
 
