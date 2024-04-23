@@ -9,6 +9,62 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/ajax-loader.gif",
+      "PackagePath": "staticwebassets/css/slick/ajax-loader.gif"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/config.rb",
+      "PackagePath": "staticwebassets/css/slick/config.rb"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/fonts/slick.eot",
+      "PackagePath": "staticwebassets/css/slick/fonts/slick.eot"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/fonts/slick.svg",
+      "PackagePath": "staticwebassets/css/slick/fonts/slick.svg"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/fonts/slick.ttf",
+      "PackagePath": "staticwebassets/css/slick/fonts/slick.ttf"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/fonts/slick.woff",
+      "PackagePath": "staticwebassets/css/slick/fonts/slick.woff"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick-theme.css",
+      "PackagePath": "staticwebassets/css/slick/slick-theme.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick-theme.less",
+      "PackagePath": "staticwebassets/css/slick/slick-theme.less"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick-theme.scss",
+      "PackagePath": "staticwebassets/css/slick/slick-theme.scss"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick.css",
+      "PackagePath": "staticwebassets/css/slick/slick.css"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick.js",
+      "PackagePath": "staticwebassets/css/slick/slick.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick.less",
+      "PackagePath": "staticwebassets/css/slick/slick.less"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick.min.js",
+      "PackagePath": "staticwebassets/css/slick/slick.min.js"
+    },
+    {
+      "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/css/slick/slick.scss",
+      "PackagePath": "staticwebassets/css/slick/slick.scss"
+    },
+    {
       "Id": "/mnt/sdc2/vscode/code-bases/vertoTakeHome/home-page-clone/opticron-clone/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },

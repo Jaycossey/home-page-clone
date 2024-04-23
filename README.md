@@ -1,6 +1,6 @@
-# Opticron clone (WIP)
+# Opticron clone
 
-An ASP.NET MVC C# clone of a website, utilising an integrated and seeded SQL database. This project was created to test and expand my skillset, being presented with the challenge has been a wonderous journey so far and has pushed me to embrace new skills. Having previously only worked alongside the MERN stack (and prior, some vanilla C), learning new languages and frameworks has been an incredibly useful experience. 
+An ASP.NET MVC C# clone of a home page, utilising an integrated and seeded SQL database. This project was created to test and expand my skillset, being presented with the challenge has been a wonderous journey so far and has pushed me to embrace new skills. Having previously only worked alongside the MERN stack (and prior, some vanilla C), learning new languages and frameworks has been an incredibly eye opening experience. 
 
 While still currently a work in progress, I have so far:
 
@@ -12,6 +12,7 @@ While still currently a work in progress, I have so far:
 - Utilized the Foundation Framework to implement responsive design
 - Added custom classes with vanilla CSS
 - Gained insight into how to implement the database for the text content of the site
+- Added JS (jQuery) libraries to handle a carousel animation
 
 ## Tech Stack
 
@@ -22,7 +23,23 @@ While still currently a work in progress, I have so far:
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
+## Deployed Link
+
+Visit the deployed site at: 
+
 ## Support
 
 Raise an issue at the repo: <a href="">![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</a>
 
+### Known issues / areas for improvement
+
+- Codebase does not entirely follow best practices, will need cleanup
+- Routing for controllers could do with a cleanup
+- Deployment repo is bloated
+- Deployment not completed
+
+
+
+### Overall personal experience
+
+Overall I thoroughly enjoyed this project, taking on a new learning experience has been extremely valuable and has enabled me to take on a new challenge and learn more frameworks and work with strongly typed languages. I will enjoy working with ASP.NET and C# in the future and look forward to future projects with these technologies! 
