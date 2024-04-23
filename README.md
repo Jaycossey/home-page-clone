@@ -1,4 +1,4 @@
-# Opticron clone (WIP)
+# Opticron clone
 
 An ASP.NET MVC C# clone of a home page, utilising an integrated and seeded SQL database. This project was created to test and expand my skillset, being presented with the challenge has been a wonderous journey so far and has pushed me to embrace new skills. Having previously only worked alongside the MERN stack (and prior, some vanilla C), learning new languages and frameworks has been an incredibly eye opening experience. 
 
