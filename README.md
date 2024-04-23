@@ -23,9 +23,10 @@ To complete the task, I accomplished the following:
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-<!-- ## Deployed Link
+## Deployment
 
-Visit the deployed site at: -->
+Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/efbec9a8-5e2f-4dab-8cdd-df3cb2884651/deploy-status)](https://app.netlify.com/sites/preeminent-praline-09280a/deploys)
+Link: https://preeminent-praline-09280a.netlify.app/
 
 ## Support
 
