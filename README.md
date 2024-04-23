@@ -36,7 +36,6 @@ Raise an issue at the repo: <a href="">![GitHub](https://img.shields.io/badge/gi
 - Codebase does not entirely follow best practices, will need cleanup
 - Routing for controllers could do with a cleanup
 
-
 ### Overall personal experience
 
 Overall I thoroughly enjoyed this project, taking on a new learning experience has been extremely valuable and has enabled me to take on a new challenge and learn more frameworks and work with strongly typed languages. I will enjoy working with ASP.NET and C# in the future and look forward to future projects with these technologies! 
