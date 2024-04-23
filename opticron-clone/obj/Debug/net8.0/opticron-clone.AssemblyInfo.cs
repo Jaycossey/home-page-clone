@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("opticron-clone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4db085858e2a4350c8af72ad80e6da54fa502d69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f55f8ed950dfe6387dedfaa05a626e3505f92aa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("opticron-clone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("opticron-clone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
