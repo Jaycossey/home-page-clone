@@ -24,6 +24,7 @@ namespace opticron_clone.App_Data
         {
             ViewData["OSectionTitle"] = "Special Offers";
             ViewData["OfferButton"] = "View Offers";
+            ViewData["CatagoryTitle"] = "Product Catagories";
             return View(await _context.FeatureModel.ToListAsync());
         }
 
