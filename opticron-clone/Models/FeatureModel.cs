@@ -19,4 +19,6 @@ public class FeatureModel
     // Button Text (name specific to section, may not be required TODO: edit if needed)
     [Display(Name = "Feature Button Text")]
     public string? FBtnText { get; set; }
+    // Type integer for section displayType
+    public int SectionNum { get; set; }
 }

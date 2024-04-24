@@ -12,6 +12,7 @@ namespace opticron_clone.Data
         public FeatureModelContext (DbContextOptions<FeatureModelContext> options)
             : base(options)
         {
+            Database.EnsureCreated();
         }
 
         public DbSet<opticron_clone.Models.FeatureModel> FeatureModel { get; set; } = default!;
