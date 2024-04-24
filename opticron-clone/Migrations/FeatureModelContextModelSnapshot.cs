@@ -31,6 +31,9 @@ namespace opticron_clone.Migrations
                     b.Property<string>("ImageSrc")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("SectionNum")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Title")
                         .HasColumnType("TEXT");
 

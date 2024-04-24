@@ -17,7 +17,7 @@
             @* Auto populate cards *@
             @foreach (var item in Model) 
             {
-                @if (item.Description != "" && item.FBtnText != "")
+                @if (item.SectionNum == 1)
                 {
                     @* Card Container. Responsive design with Foundation CSS classes *@
                     <div class="card cell small-12 medium-6 large-3" 
@@ -44,7 +44,7 @@
                 @* Auto populate grid *@
                 @foreach (var item in Model) 
                 {
-                    if (item.Description != "" && item.FBtnText == "")
+                    if (item.SectionNum == 2)
                     {
                         @* Card container *@
                         <div class="card cell small-12 medium-4">
@@ -74,7 +74,7 @@
 
                 @foreach (var item in Model) 
                 {
-                    if (item.Description == "" && item.FBtnText == "")
+                    if (item.SectionNum == 3)
                     {
                         @* Card Container *@
                         <div class="card cell small-12 medium-6 large-3 text-center" style="height: 320px; border: none;">
