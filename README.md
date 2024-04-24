@@ -25,7 +25,9 @@ To complete the task, I accomplished the following:
 
 ## Deployment
 
+Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/3e7afa8a-b154-4ac4-8294-cda1148c8a02/deploy-status)](https://app.netlify.com/sites/resilient-snickerdoodle-15dbed/deploys)
 
+Link: https://resilient-snickerdoodle-15dbed.netlify.app/
 
 ## Support
 
